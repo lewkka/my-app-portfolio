@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TitleText" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
+    <style name="CasualButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/orange</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">@dimen/standard_margin</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:layout_marginBottom">
+            @dimen/abc_action_bar_subtitle_bottom_margin_material
+        </item>
+        <item name="android:layout_marginTop">@dimen/abc_action_bar_subtitle_bottom_margin_material
+        </item>
+    </style>
+
+    <style name="OwnAppButton" parent="CasualButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/red</item>
+    </style>
+</resources>
